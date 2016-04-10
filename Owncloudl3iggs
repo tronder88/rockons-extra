@@ -10,12 +10,19 @@
         },
         "containers": {
             "owncloud": {
-                "image": "pschmitt/owncloud",
-		"tag": "8.2.1",
+                "image": "l3iggs/owncloud",
+		"tag": "latest",
                 "launch_order": 2,
                 "ports": {
-                    "443": {
+                "80": {
                         "description": "OwnCloud WebUI port. Suggested default: 8080",
+                        "host_default": 8080,
+                        "label": "WebUI port",
+                        "protocol": "tcp",
+                        "ui": true
+                    }
+                "443": {
+                        "description": "OwnCloud HTTPS WebUI port. Suggested default: 8443",
                         "host_default": 8080,
                         "label": "WebUI port",
                         "protocol": "tcp",
@@ -23,6 +30,11 @@
                     }
                 },
                 "volumes": {
+                    "/sslCert": {
+                        "description": "Choose a Share for OwnCloud ssl certificate.",
+                        "label": "SSL Certificate location"
+                    },
+                   
                     "/var/www/owncloud/config": {
                         "description": "Choose a Share for OwnCloud configuration. Eg: create a Share called owncloud-config for this purpose alone.",
                         "label": "Config Storage",
