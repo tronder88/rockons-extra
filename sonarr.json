@@ -47,7 +47,7 @@
                 }
             }
         },
-        "description": "Sonarr (formerly NZBdrone) is a PVR for usenet and bittorrent users.",
+        "description": "Sonarr (formerly NZBdrone) is a PVR for usenet and bittorrent users. -Tronder88",
         "ui": {
             "slug": ""
         },
