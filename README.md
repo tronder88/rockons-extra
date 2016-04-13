@@ -13,3 +13,7 @@ Configure the Rock-On service on your Rockstor system. Please see the http://roc
 download the rockon you need via wget or download zip option (do not rightclick in windows and save target as..), winscp etc. to /opt/rockstor/rockons-metastore/[app].json. Hit update in the Web-UI and install your brand new Rock-On!
 
 Please contribute to the Rockstor community on forum.rockstor.com and opt in for a subscription to keep the development of distro running
+
+
+Short description of differences if existing image in Rock-ons:
+-Plex: Has a separate mapping for transcoding since it is a part of Plex. Is not default for image, "/transcode" is the default pasth    inside plex.
