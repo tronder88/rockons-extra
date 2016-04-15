@@ -1,0 +1,22 @@
+{
+    "kms": {
+        "containers": {
+            "kms": {
+                "image": "bug11/py-kms",
+                "launch_order": 1,
+                "ports": {
+                    "1688": {
+                        "description": "pykms WebUI port. Suggested default: 1688",
+                        "host_default": 1688,
+                        "label": "WebUI port",
+                        "protocol": "tcp"
+					}
+                }
+            }
+        },
+        "description": "py-kms. Tronder88 JSON",
+		"more_info": "<h4>PY-KMS.</h4>",
+	"website": "https://github.com/djluo/docker-py-kms",
+	"version": "1.0"
+    }
+}
