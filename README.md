@@ -18,3 +18,5 @@ Please contribute to the Rockstor community on forum.rockstor.com and opt in for
 Short description of differences if existing image in Rock-ons:
 
 -Plex: Has a separate mapping for transcoding since it is a part of Plex. Is not default for image, "/transcode" is the default pasth    inside plex.
+
+-Duplicati and Owncloud is not ready, will give error. Debug pending
