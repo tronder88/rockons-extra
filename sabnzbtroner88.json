@@ -43,11 +43,7 @@
                 }
             }
         },
-<<<<<<< HEAD:sabnzbtroner88.json
-        "description": "The best usenet downloader.-Tronder88 Json",
-=======
-        "description": "The best usenet downloader. -Tronder88",
->>>>>>> origin/master:sabnzb.json
+        "description": "The best usenet downloader.",
         "ui": {
             "slug": ""
         },
