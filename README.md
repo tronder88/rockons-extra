@@ -19,4 +19,6 @@ Short description of differences if existing image in Rock-ons:
 
 -Plex: Has a separate mapping for transcoding since it is a part of Plex. Is not default for image, "/transcode" is the default pasth    inside plex.
 
--Duplicati and Owncloud is not ready, will give error. Debug pending
+-Duplicati - works, not tested too much, version is canary. When 2.0 is stable, I will change to stable channel.
+
+Owncloud is not ready, will give error. Debug pending
