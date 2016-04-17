@@ -12,6 +12,8 @@ Configure the Rock-On service on your Rockstor system. Please see the http://roc
 
 Download the rockon you need via wget or download zip option (do not rightclick in windows and save target as..), winscp etc. to /opt/rockstor/rockons-metastore/[app].json. Hit update in the Web-UI and install your brand new Rock-On!
 
+-To remove Rock-on, please uninstall rockon, and then remove JSON file from rockons-metastore folder. Hit update again in web-ui and it should be removed.
+
 Please contribute to the Rockstor community on forum.rockstor.com and opt in for a subscription to keep the development of distro running
 
 
