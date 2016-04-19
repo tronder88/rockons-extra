@@ -10,7 +10,7 @@ If you are familiar with Docker and know how to run apps by hand, you can create
 
 Configure the Rock-On service on your Rockstor system. Please see the http://rockstor.com/docs/docker-based-rock-ons/overview.html.
 
-Download the rockon you need via wget or download zip option (do not rightclick in windows and save target as..), winscp etc. to /opt/rockstor/rockons-metastore/[app].json. Hit update in the Web-UI and install your brand new Rock-On!
+Download the rockon you need via download zip option (do not rightclick in windows and save target as.. Nor use WGET as this gives weird text in JSON), winscp etc. to /opt/rockstor/rockons-metastore/[app].json. Hit update in the Web-UI and install your brand new Rock-On!
 
 -To remove Rock-on, please uninstall rockon, and then remove JSON file from rockons-metastore folder. Hit update again in web-ui and it should be removed.
 
